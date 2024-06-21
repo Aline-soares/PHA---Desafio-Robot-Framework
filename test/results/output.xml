@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-06-17T00:19:36.009021" rpa="false" schemaversion="5">
+<suite id="s1" name="Run All Tests" source="C:\WorkSpace\PHA\test\run_all_tests.robot">
+<kw name="Setup da Suíte de Teste" type="SETUP">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-17T00:19:36.039319" level="INFO">Inicializando a suíte de testes...</msg>
+<arg>Inicializando a suíte de testes...</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<doc>Configurações iniciais da suíte de testes</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<test id="s1-t1" name="Executar Todos os Testes" line="9">
+<kw name="Run Keywords" owner="BuiltIn">
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<kw name="Teste Exercicio5">
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2024-06-17T00:19:36.039319" level="INFO" html="true">Getting file '&lt;a href="file://C:\Workspace\PHA\Test\Exercicio5.robot"&gt;C:\Workspace\PHA\Test\Exercicio5.robot&lt;/a&gt;'.</msg>
+<arg>C:\\Workspace\\PHA\\Test\\Exercicio5.robot</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<doc>Teste do Exercício 5</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<kw name="Teste Exercicio6">
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2024-06-17T00:19:36.039319" level="INFO" html="true">Getting file '&lt;a href="file://C:\Workspace\PHA\Test\Exercicio6.robot"&gt;C:\Workspace\PHA\Test\Exercicio6.robot&lt;/a&gt;'.</msg>
+<arg>C:\\Workspace\\PHA\\Test\\Exercicio6.robot</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<doc>Teste do Exercício 6</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<kw name="Teste Exercicio7">
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2024-06-17T00:19:36.039319" level="INFO" html="true">Getting file '&lt;a href="file://C:\Workspace\PHA\Test\Exercicio7.robot"&gt;C:\Workspace\PHA\Test\Exercicio7.robot&lt;/a&gt;'.</msg>
+<arg>C:\\Workspace\\PHA\\Test\\Exercicio7.robot</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<doc>Teste do Exercício 7</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<kw name="Teste Exercicio8">
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2024-06-17T00:19:36.039319" level="INFO" html="true">Getting file '&lt;a href="file://C:\Workspace\PHA\Test\Exercicio8.robot"&gt;C:\Workspace\PHA\Test\Exercicio8.robot&lt;/a&gt;'.</msg>
+<arg>C:\\Workspace\\PHA\\Test\\Exercicio8.robot</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<doc>Teste do Exercício 8</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<kw name="Teste Exercicio9">
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2024-06-17T00:19:36.039319" level="INFO" html="true">Getting file '&lt;a href="file://C:\Workspace\PHA\Test\Exercicio9.robot"&gt;C:\Workspace\PHA\Test\Exercicio9.robot&lt;/a&gt;'.</msg>
+<arg>C:\\Workspace\\PHA\\Test\\Exercicio9.robot</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<doc>Teste do Exercício 9</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</kw>
+<doc>Executa todos os exercícios de teste juntos</doc>
+<status status="PASS" start="2024-06-17T00:19:36.039319" elapsed="0.000000"/>
+</test>
+<kw name="Teardown da Suíte de Teste" type="TEARDOWN">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-17T00:19:36.055995" level="INFO">Finalizando a suíte de testes...</msg>
+<arg>Finalizando a suíte de testes...</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-17T00:19:36.055995" elapsed="0.000000"/>
+</kw>
+<doc>Finalizações da suíte de testes</doc>
+<status status="PASS" start="2024-06-17T00:19:36.054829" elapsed="0.001166"/>
+</kw>
+<doc>Criar um comando de execução robot para executar todos os exercícios juntos:</doc>
+<status status="PASS" start="2024-06-17T00:19:36.015582" elapsed="0.040413"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Run All Tests">Run All Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

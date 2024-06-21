@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-06-16T12:22:48.520072" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\WorkSpace\PHA\test.robot">
+<test id="s1-t1" name="Teste 1" line="22">
+<kw name="Exibir o nome completo no console">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Nome: ${dados_pessoais["Nome"]} ${dados_pessoais["Sobrenome"]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T12:22:48.787175" elapsed="0.001230"/>
+</kw>
+<status status="PASS" start="2024-06-16T12:22:48.786634" elapsed="0.001771"/>
+</kw>
+<kw name="Exibir a idade no console">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Idade: ${dados_pessoais["Idade"]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T12:22:48.788405" elapsed="0.001210"/>
+</kw>
+<status status="PASS" start="2024-06-16T12:22:48.788405" elapsed="0.001210"/>
+</kw>
+<kw name="Exibir o endereço completo no console">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Endereço: Rua ${dados_pessoais["Rua"]}, nº ${dados_pessoais["Numero"]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T12:22:48.789615" elapsed="0.001845"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Bairro: ${dados_pessoais["Bairro"]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T12:22:48.791460" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Cep: ${dados_pessoais["Cep"]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T12:22:48.792858" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Cidade: ${dados_pessoais["Cidade"]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T12:22:48.793870" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Estado: ${dados_pessoais["Estado"]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-16T12:22:48.793870" elapsed="0.001023"/>
+</kw>
+<status status="PASS" start="2024-06-16T12:22:48.789615" elapsed="0.005860"/>
+</kw>
+<status status="PASS" start="2024-06-16T12:22:48.785232" elapsed="0.010337"/>
+</test>
+<status status="PASS" start="2024-06-16T12:22:48.535737" elapsed="0.260662"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-06-16T12:22:48.771668" level="WARN">Imported resource file 'C:\WorkSpace\PHA\main.robot' is empty.</msg>
+</errors>
+</robot>
